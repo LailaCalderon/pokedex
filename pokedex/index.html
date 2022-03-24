@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="pokeConteiner">
+        <div class="circulos">
+            <div class="circuloAzul"></div>
+            <div class="circuloRojo"></div>
+            <div class="circuloAmarillo"></div>
+            <div class="circuloVerde"></div>
+        </div>
+    <div class="borde-pantalla">
+    <div class="pantalla">
+    <div class="nombre">
+        <h3 id="pokeNum"></h3>
+        <h4 id="tipo"></h4>
+    </div>
+    <div class="poke-img">
+    <img src="img/pokeball.png" alt="pokeball" id="pokeImg">
+    </div>
+
+    <div class="pokeinfo">
+        <div class="movesBox">
+            <ul id="moves">
+            </ul>
+        </div>
+
+        <div class="habsBox">
+            <ul id="habs">
+            </ul>
+        </div>
+    </div> 
+    </div>
+    </div>
+
+    <div class="botones">
+    <div class="btn-azul"></div>
+    <div class="btn-verde"><h4 id="peso"></h4></div>
+    <div class="btn-rojo"><h4 id="altura"></h4></div>
+    </div>
+
+    <div class="form">
+    <input type="text" placeholder="Pokemon" id="pokeName" name="pokeName">
+    <button id="btn">Buscar Pokemon</button>
+    </div>
+
+    </div>
+</body>
+<footer>
+    <script src="pokedex.js"></script>
+</footer>
+</html>

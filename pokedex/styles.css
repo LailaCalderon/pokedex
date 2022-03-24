@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'VT323', monospace;
+}
+
+.pokeConteiner{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    justify-content: center;
+    border: solid 5px ;
+    border-radius: 8px 2px 2px 8px;
+    background-color: rgb(203, 45, 55);
+}
+
+.circulos{
+    display: flex;
+    margin: 10px 15px;
+    align-items: baseline;
+}
+
+.circuloAzul{
+    border: solid 3px #000;
+    border-radius: 50px;
+    background-color: rgb(82, 175, 218);
+    width: 50px;
+    height: 50px;
+    margin-right: 4px;
+}
+
+.circuloRojo{
+    border: solid 3px #000;
+    border-radius: 30px;
+    background-color: rgb(185, 31, 31);
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+.circuloAmarillo{
+    border: solid 3px #000;
+    border-radius: 30px;
+    background-color: rgb(244, 247, 83);
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+.circuloVerde{
+    border: solid 3px #000;
+    border-radius: 30px;
+    background-color: rgb(92, 221, 124);
+    width: 30px;
+    height: 30px;
+}
+
+.borde-pantalla{
+    border: 5px solid #000;
+    width: 85%;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.pantalla{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(31, 31, 31);
+    padding: 15px;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(252, 248, 230);
+}
+
+.nombre{
+    text-align: center;
+}
+
+.poke-img img{
+    width: 150px;
+}
+
+.botones{
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    display: inline-flex;
+    font-size: .8em;
+    text-align: center;
+    align-items: baseline;
+}
+
+.btn-azul{
+    border: solid 1px #000;
+    border-radius: 40px;
+    background-color: rgb(53, 167, 182);
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.btn-verde{
+    border: solid 1px #000;
+    border-radius: 5px;
+    background-color: rgb(53, 182, 111);
+    width: 30%;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.btn-rojo{
+    border: solid 1px #000;
+    border-radius: 5px;
+    background-color: rgb(182, 115, 53);
+    width: 30%;
+    height: 25px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+.form input{
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(255, 220, 66);
+}
+
+.form input[type="text"]{
+   font-size: 1.3em;
+   color: #000;
+   text-align: center;
+   padding: 5px;
+   border-style: none;
+   font-family: 'VT323', monospace;
+}
+
+.form button{
+    width: 50%;
+    height: 30px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+    border-radius: 5px;
+    margin-top: 5%;
+    font-size: 1em;
+}
+
+.pokeinfo{
+    display: inline-flex;
+    width: 90%;
+    margin: auto;
+    font-size: 1em;
+    justify-content: space-between;
+}
+
+.movesBox ul li,
+.habsBox ul li{
+    list-style: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .pokeConteiner{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .pokeinfo{
+        display: inline-flex;
+        width: 90%;
+        margin: auto;
+        font-size: .8em;
+        justify-content: space-between;
+    }
+  }
